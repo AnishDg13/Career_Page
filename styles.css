@@ -154,7 +154,7 @@ body {
 }
 
 .navbar-menu {
-    position: fixed;
+    /*position: fixed;*/
     top: var(--navbar-height);
     bottom: 0;
     transition: opacity 0.2s ease-in-out,
