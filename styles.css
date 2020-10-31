@@ -196,12 +196,12 @@ body {
 .wdyw{
     padding-left: 0.5em;
     font-size:70px;
-    font-family: "Comic Sans MS", Comic Sans, cursive;
+    font-family: "Courier New", monospace;
 }
 .mission, .h2{
     padding-left: 0.5em;
     font-size: 40px;
-    font-family: "Bradley Hand", cursive;
+    font-family: "Andale Mono", monospace;
     text-decoration: underline;
 }
 .h2{
@@ -213,16 +213,16 @@ body {
 .p{
     padding:2.5rem;
     font-size: 20px;
-    font-family: "Bradley Hand", cursive;
+    font-family: "Andale Mono", monospace;
 }
-#p1,#p2,#p3{
+#p1,#p2{
     padding:1em;
     position: relative;
     float: left;
-}
-#p1,#p2{
+    font-family: "Andale Mono", monospace;
     padding-left: 3em;
 }
+
 .pos{
     width:100px;
     height: 100px;
