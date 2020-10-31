@@ -33,7 +33,7 @@ body {
 
 #navbar {
     --navbar-height: 120px;
-    position: fixed;
+    /*position: fixed;*/
     height: var(--navbar-height);
     background-color: var(--navbar-bg-color);
     left: 0;
