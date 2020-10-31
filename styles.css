@@ -10,6 +10,12 @@
     margin: 0;
     padding: 0;
 }
+#p0{
+    font-family: :"Helvetica",sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    font-style: oblique;
+}
 
 body {
     height: 100vh;
@@ -197,12 +203,14 @@ body {
     padding-left: 0.5em;
     font-size:70px;
     font-family: "Courier New", monospace;
+    text-align: center;
 }
 .mission, .h2{
     padding-left: 0.5em;
     font-size: 40px;
     font-family: "Andale Mono", monospace;
     text-decoration: underline;
+    text-align: center;
 }
 .h2{
     font-size: 30px;
@@ -214,6 +222,7 @@ body {
     padding:2.5rem;
     font-size: 20px;
     font-family: "Andale Mono", monospace;
+    text-align: center;
 }
 #p1,#p2{
     padding:1em;
@@ -221,7 +230,10 @@ body {
     float: left;
     font-family: "Andale Mono", monospace;
     padding-left: 3em;
+    text-align: center;
+    width: 50%;
 }
+
 
 .pos{
     width:100px;
@@ -229,6 +241,7 @@ body {
     object-fit: cover;
     border-radius: 60%;
 }
+
 
 
 @media screen and (min-width: 360px) {
@@ -264,5 +277,6 @@ body {
     #p1,#p2,#p3{
         float:none;
         padding:3em;
+        width: 100%;
     }
 }
