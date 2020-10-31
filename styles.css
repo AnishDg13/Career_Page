@@ -259,3 +259,9 @@ body {
         margin-right: 0;
     }
 }
+@media (max-width: 475px){
+    #p1,#p2,#p3{
+        float:none;
+        padding:3em;
+    }
+}
