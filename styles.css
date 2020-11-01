@@ -5,6 +5,7 @@
     --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -198,6 +199,12 @@ body {
     font-family: "Andale Mono", monospace;
     text-align: center;
 }
+@keyframes one{
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
 #p1,#p2{
     padding:1em;
     position: relative;
@@ -206,6 +213,10 @@ body {
     padding-left: 3em;
     text-align: center;
     width: 50%;
+    background-color: red;
+    animation-name: one;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 
