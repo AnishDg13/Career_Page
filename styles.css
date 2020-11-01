@@ -51,6 +51,7 @@ body {
 }
 
 .navbar-item {
+    font-size: 170%;
     margin: 0.4em;
     width: 100%;
 }
@@ -167,10 +168,21 @@ body {
     padding: 1em;
     max-height: none;
 }
+@keyframes three {
+  0%{padding-left: 0%}
+  
+
+  50%{padding-left:75%;}
+  100%{padding-left: 0%;}
+}
 .bold{
+    position: relative;
     padding:1em;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
+     animation-name: three;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 #backg{
     background-color:rgba(0,255,0, 0.2);
@@ -194,17 +206,27 @@ body {
     text-decoration: none;
     
 }
+
 .p{
     padding:2.5rem;
     font-size: 20px;
     font-family: "Andale Mono", monospace;
     text-align: center;
+
+    
 }
 @keyframes one{
-    0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+    0%   {background-color: #FF6F61;}
+  25%  {background-color: #EFC050;}
+  50%  {background-color: #5B5EA6;}
+  100% {background-color: #88B04B;}
+}
+
+@keyframes two{
+    0%   {background-color: #9B2335;}
+  25%  {background-color: #F7DC6F;}
+  50%  {background-color: #92A8D1;}
+  100% {background-color: #52BE80;}
 }
 #p1,#p2{
     padding:1em;
@@ -214,8 +236,14 @@ body {
     padding-left: 3em;
     text-align: center;
     width: 50%;
-    background-color: red;
+    
     animation-name: one;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+#p2{
+    animation-name: two;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
