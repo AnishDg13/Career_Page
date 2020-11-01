@@ -215,7 +215,7 @@ body {
     width: 50%;
     background-color: red;
     animation-name: one;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 }
 
