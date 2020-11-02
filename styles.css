@@ -211,7 +211,7 @@ body {
     font-family: "Times New Roman", Times, serif;
     animation-name: three;
     
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 #backg{
