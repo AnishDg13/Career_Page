@@ -107,6 +107,9 @@ body {
 .Jumbo{
     width: 100%;
     height:auto;
+    border-radius: 60%;
+    opacity:0.8;
+    border: 50px transparent solid;
 }
 
 .navbar-toggle {
@@ -297,7 +300,8 @@ body {
     animation-iteration-count: infinite;
     border: 5px transparent solid;
     background-clip: content-box;
-    opacity:0.7;
+   
+        opacity:0.7;
 
 
 }
